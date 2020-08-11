@@ -1,10 +1,102 @@
-@charset"UTF-8";
+@charset "UTF-8";
 *{
     margin: 0;
     padding: 0;
     
 }
 body{
-    color: red;
-    background-color: #ffff00;
+    font-family: fantasy,monospace,sans-serif,;
+    font-size: 16px;
+    color: #333;
 }
+fieldset{
+    border: 0;
+
+}
+table{
+
+    border-collapse: collapse ; /*테두리사이 간격 없애기*/
+
+}
+caption{
+    /* position: absolute ;
+    left: 20em; */
+}
+#join_wrap{
+    width: 800px;
+    margin: 0 auto; /*가운데 정렬*/
+
+}
+#join_wrap .title{
+    padding: 50px 0 0 0 ;
+    font-size: 2em;
+    font-weight: 700;
+    margin-bottom: 15px;
+    
+    
+}
+.joinTable th{
+    width: 180px;
+    text-align: left;
+}
+.joinTable td{
+    width: 620px;
+    
+    
+
+}
+.joinTable th, .joinTable td{
+    padding: 10px;
+    box-sizing: border-box;
+    border-bottom: 1px solid #ddd;
+
+}
+.joinTable .textForm{
+    border-radius: 5px;
+    width: 420px;
+    height: 40px;
+    border: 1px solid #ddd;
+    padding: 0 10px;
+    box-sizing: border-box;  /*선이 굵든 얇든 같은 크기로*/
+
+}
+/* 중복확인 버튼 */
+.btn{
+    border-radius: 5px;
+    background-color: #333;
+    color: white;
+    width: 70px;
+    height: 40px;
+    border: 0;
+    
+   
+
+}
+.joinTable .textarea{
+    width: 420px;
+    height: 80px;
+    border: 1px solid #ddd ;
+    border-radius: 5px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.btn_area{
+    text-align: center;
+    margin: 0 auto;
+}
+.btn_area button{
+    width: 200px;
+    height: 72px;
+    margin: 0 10px;
+    font-size: 20px;
+}
+.btn_join{
+    background-color: #333;
+    color: white;
+}
+.first{
+    border-top: 2px solid #333;
+    
+}
+
+
